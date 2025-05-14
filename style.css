@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  background-image: url(./assets/bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-spacing: 10px;
+}
+
+th,
+td {
+  border-collapse: collapse;
+  padding: 20px;
+  background-color: lightskyblue;
+  color: lightcoral;
+  font-size: 20px;
+}
+
+th {
+  font-size: 30px;
+}
